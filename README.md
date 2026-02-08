@@ -28,17 +28,6 @@ docker compose -f generate-indexer-certs.yml run --rm generator
 ```
 4. Then, finally, run Wazuh compose-file
 ```bash
-
-    Operating system: Linux or Windows
-
-    Architecture: AMD64
-
-    CPU: At least 4 cores
-
-    Memory: At least 8 GB of RAM for the Docker host
-
-    Disk space: At least 50 GB storage for Docker images and data volumes
-
 docker compose up -d
 ```
 ## Best Practices
@@ -58,3 +47,4 @@ For docker installation it's more convenient to do this through Dashboard.
 I took almost all files for setop from official Wazuh repository, so you can use this repo for manager/agent installation.
 
 - https://github.com/wazuh/wazuh-docker.git
+
