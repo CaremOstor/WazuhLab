@@ -5,7 +5,8 @@ Script I added works on wazuh vx.x and I tested it on Ubuntu 24.04.
 
 If there is new version release, then follow Wazuh [docs for Docker](https://documentation.wazuh.com/current/deployment-options/docker/wazuh-container.html)
 
-For client OS I tested it on Windows Server 2019, Debian 13 (raw agent installation) and OpenSUSE Leap 16 (Docker agent installation).
+For client OS I tested it on Windows Server 2019, Debian 13, OpenSUSE Leap 16 (raw agent installation).
+Raw agent installation chosen insted of docker because Wazuh Agent has issues with OS definition and naming (and also it's easier to manage raw installation).
 
 ## Requirements & General steps
 Minimal hardware requirements for Wazuh Server:
@@ -47,6 +48,7 @@ For docker installation it's more convenient to do this through Dashboard.
 I took almost all files for setup from official Wazuh repository, so you can use this repo for manager/agent installation.
 
 - https://github.com/wazuh/wazuh-docker.git
+
 
 
 
