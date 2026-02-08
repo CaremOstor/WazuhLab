@@ -7,7 +7,7 @@ If there is new version release, then follow Wazuh [docs for Docker](https://doc
 
 For client OS I tested it on Windows Server 2019, Debian 13, OpenSUSE Leap 16 (raw agent installation).
 
-Raw agent installation chosen insted of docker because Wazuh Agent has issues with OS definition and naming (and also it's easier to manage raw installation).
+Raw agent installation chosen instead of docker because Wazuh Agent has issues with OS definition and naming (and also it's easier to manage raw installation).
 
 ## Requirements & General steps
 Minimal hardware requirements for Wazuh Server:
@@ -49,6 +49,7 @@ For docker installation it's more convenient to do this through Dashboard.
 I took almost all files for setup from official Wazuh repository, so you can use this repo for manager/agent installation.
 
 - https://github.com/wazuh/wazuh-docker.git
+
 
 
 
