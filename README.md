@@ -44,7 +44,8 @@ Also, **adding** users is way more convenient through Wazuh Dashboard GUI (Index
 For docker installation it's more convenient to do this through Dashboard.
 
 ## Official repo
-I took almost all files for setop from official Wazuh repository, so you can use this repo for manager/agent installation.
+I took almost all files for setup from official Wazuh repository, so you can use this repo for manager/agent installation.
 
 - https://github.com/wazuh/wazuh-docker.git
+
 
